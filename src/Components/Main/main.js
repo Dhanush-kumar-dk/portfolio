@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 import image from '../../Components/Assests/Sushant-Singh-Rajput.png'
 import hire from '../../Components/Assests/portfolio.png'
 
-const PDF_file_url='http://localhost:3000/jayavel.pdf'
+const PDF_file_url='http://localhost:3000/Resume.pdf'
 const main = () => {
   const downloadFileaturl=(url)=>{
     fetch(url)
