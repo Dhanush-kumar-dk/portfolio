@@ -1,0 +1,39 @@
+#prog{
+    width: 100vw ;
+    max-width: 60rem ;
+    margin: 0 auto;
+    align-items: center;
+    padding:  0 1rem;
+    justify-content: center;
+}
+.progbars{
+    width: 100vw;
+    max-width: 60rem ;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.prog-title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    margin: 0 1rem;
+    text-align: center;
+}
+.prog-bat{
+    width: 100vw;
+    max-width: 50rem ;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem  auto;
+    background: rgb(40,40,40);
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+@media screen and (max-width: 900px) {
+    .prog-bat{
+        width: 90vw;
+        max-width: 50rem;
+    }
+}
